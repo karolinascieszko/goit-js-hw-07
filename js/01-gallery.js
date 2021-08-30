@@ -37,9 +37,9 @@ galleryImages.forEach(item => {
 
 // CREATE MODAL WINDOW
         
-        let modalWindow = basicLightbox.create(`<img src="${item.dataset.source}" alt="${item.alt}">`)
+        let modalWindow = basicLightbox.create(`<img src="${item.dataset.source}" alt="${item.alt}" width = "1400px" height = "900px">`)
         modalWindow.show();
-        
+
 //ESC CLOSE
 
         if (modalWindow.visible() === true) {
