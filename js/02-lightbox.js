@@ -4,7 +4,7 @@ console.log(galleryItems);
 const qs = (selector) => document.querySelector(selector);
 const qsa = (selector) => document.querySelectorAll(selector);
 
-//ADDING GALLERY
+//ADDING GALLERY ITEMS
 
 const galleryBox = qs(".gallery");
 console.log(galleryBox);
