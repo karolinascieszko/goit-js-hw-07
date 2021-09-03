@@ -8,8 +8,7 @@ const qsa = selector => document.querySelectorAll(selector);
 const galleryBox = qs('.gallery');
 console.log(galleryBox);
 
-//ADDING GALLERY
-
+//ADD GALLERY
 const images = galleryItems
   .map(
     item =>
@@ -25,7 +24,7 @@ console.log(images);
 
 const galleryImages = qsa('.gallery__image');
 console.log('galleryImages');
-//ADD GALLERY
+
 galleryImages.forEach(item => {
   item.addEventListener('click', event => {
     event.preventDefault();
